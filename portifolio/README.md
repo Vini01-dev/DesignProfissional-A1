@@ -38,8 +38,8 @@ Sou Vinicius MIranda Santos, estudante de **Análise e Desenvolvimento de Sistem
 
 📍 Brasília, DF  
 📧 mirandavini228@gmail.com  
-🔗 [Meu GitHub](https://github.com/seu-usuario)  
-🔗 [Currículo Lattes](https://lattes.cnpq.br/SEU_LINK_AQUI)
+🔗 [Meu GitHub]((https://github.com/Vini01-dev))  
+
 
 ---
 

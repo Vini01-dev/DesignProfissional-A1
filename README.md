@@ -47,8 +47,8 @@ Organizei repositórios individuais para cada disciplina cursada no 1º semestre
 
 Participei de eventos acadêmicos e profissionais para ampliar meus conhecimentos e networking na área de TI.
 
-- 📌 **Evento:** Palestra "Tendências em Desenvolvimento Front-End" — Semana Acadêmica de TI (Outubro/2025)
-- 📎 **Certificado Digital:** [certificado-semana-ti.pdf](./documentos/certificado-semana-ti.pdf)
+- 📌 **Evento:** Palestra "Inteligencia Artificial e o Ensino Suprior" — Simpósio Internacinal de Educação do Ensino Superior  (Agosto/2025)
+- 📎 **Certificado Digital:** Certificado Siees.pdf
 
 ---
 

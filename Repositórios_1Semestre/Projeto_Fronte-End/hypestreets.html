@@ -1,0 +1,202 @@
+x<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hype Streets</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .produtos {
+      flex: 2;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .produto {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    }
+
+    .produto img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .produto button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .carrinho {
+      flex: 1;
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+      height: fit-content;
+    }
+
+    .item-carrinho {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8f8f8;
+      padding: 8px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .item-carrinho button {
+      background: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .item-carrinho button:hover {
+      background: darkred;
+    }
+
+    .total {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>HYPE STREETS</header>
+
+  <nav style="background:#222; padding:10px; text-align:center;">
+    <button onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'})" style="margin:0 10px; padding:8px 12px; border:none; background:white; border-radius:5px; cursor:pointer;">Fale Conosco</button>
+    <button onclick="document.getElementById('rastreamento').scrollIntoView({behavior:'smooth'})" style="margin:0 10px; padding:8px 12px; border:none; background:white; border-radius:5px; cursor:pointer;">Rastreamento</button>
+    <button onclick="document.getElementById('quem-somos').scrollIntoView({behavior:'smooth'})" style="margin:0 10px; padding:8px 12px; border:none; background:white; border-radius:5px; cursor:pointer;">Quem Somos</button>
+  </nav>
+
+  <div class="container">
+
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_nike-air-force-1-low-college-pack-maroon.jpeg" />
+        <h3>Nike Air Force</h3>
+        <p>R$ 499,90</p>
+        <button onclick="adicionarCarrinho('Nike Air Force', 499.90)">Adicionar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://lksneakers.com.br/cdn/shop/products/yeezy-350-v2-static-non-reflective-2023-939990.jpg?v=1710449812&width=1100" />
+        <h3>Adidas Yeezy</h3>
+        <p>R$ 899,90</p>
+        <button onclick="adicionarCarrinho('Adidas Yeezy', 899.90)">Adicionar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://www.sneakers.fr/wp-content/uploads/2023/04/xair-jordan-4-military-blue-1-1160x814.jpg.pagespeed.ic.C6s2UllJp6.jpg" />
+        <h3>Jordan Retro</h3>
+        <p>R$ 1299,90</p>
+        <button onclick="adicionarCarrinho('Jordan Retro', 1299.90)">Adicionar</button>
+      </div>
+    </div>
+
+    <div class="carrinho">
+      <h2>Carrinho</h2>
+      <div id="lista-carrinho"></div>
+      <div class="total" id="total"></div>
+    </div>
+
+  </div>
+
+  <!-- SCRIPT COM REMOVER ITEM -->
+  <script>
+    let carrinho = [];
+
+    function adicionarCarrinho(nome, preco) {
+      carrinho.push({ nome, preco });
+      atualizarCarrinho();
+    }
+
+    function removerItem(index) {
+      carrinho.splice(index, 1);
+      atualizarCarrinho();
+    }
+
+    function atualizarCarrinho() {
+      const lista = document.getElementById('lista-carrinho');
+      lista.innerHTML = '';
+
+      let total = 0;
+
+      carrinho.forEach((item, index) => {
+        total += item.preco;
+
+        lista.innerHTML += `
+          <div class="item-carrinho">
+            <span>${item.nome}</span>
+            <span>R$ ${item.preco.toFixed(2)}</span>
+
+            <button onclick="removerItem(${index})">X</button>
+          </div>
+        `;
+      });
+
+      document.getElementById('total').innerText = 'Total: R$ ${total.toFixed(2)}';
+    }
+  </script>
+
+  <section id="contato" style="padding:20px; background:white; margin:20px; border-radius:8px; box-shadow:0 0 5px rgba(0,0,0,0.2);">
+    <h2>Fale Conosco</h2>
+    <label>Seu nome:</label><br>
+    <input type="text" style="width:100%; padding:8px; margin:5px 0; border-radius:5px;"><br>
+
+    <label>Sua mensagem:</label><br>
+    <textarea style="width:100%; height:100px; padding:8px; border-radius:5px;"></textarea><br>
+
+    <button style="margin-top:10px; padding:10px 15px; background:black; color:white; border:none; border-radius:5px; cursor:pointer;">Enviar</button>
+  </section>
+
+  <section id="rastreamento" style="padding:20px; background:white; margin:20px; border-radius:8px; box-shadow:0 0 5px rgba(0,0,0,0.2);">
+    <h2>Rastreamento</h2>
+    <p>Insira o código de rastreamento abaixo:</p>
+    <input type="text" placeholder="Código de rastreamento" style="width:100%; padding:8px; border-radius:5px;">
+    <button style="margin-top:10px; padding:10px 15px; background:black; color:white; border:none; border-radius:5px; cursor:pointer;">Rastrear</button>
+  </section>
+
+  <section id="quem-somos" style="padding:20px; background:white; margin:20px; border-radius:8px; box-shadow:0 0 5px rgba(0,0,0,0.2);">
+    <h2>Quem Somos</h2>
+    <p>A <strong>Hype Streets</strong> é uma revendedora especializada em tênis de alta qualidade e modelos exclusivos. Trabalhamos com marcas renomadas do mercado, trazendo sempre estilo, conforto e autenticidade para nossos clientes. Nossa missão é oferecer a melhor experiência em streetwear, com produtos selecionados e atendimento confiável.</p>
+  </section>
+
+</body>
+</html>

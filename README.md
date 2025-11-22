@@ -47,7 +47,7 @@ Organizei repositórios individuais para cada disciplina cursada no 1º semestre
 
 Participei de eventos acadêmicos e profissionais para ampliar meus conhecimentos e networking na área de TI.
 
-- 📌 **Evento:** Palestra "Inteligencia Artificial e o Ensino Suprior" — Simpósio Internacinal de Educação do Ensino Superior  (Agosto/2025)
+- 📌 **Evento:** Palestra "Inteligencia Artificial e o Ensino Superior" — Simpósio Internacinal de Educação do Ensino Superior  (Agosto/2025)
 - 📎 **Certificado Digital:** Certificado Siees.pdf
 
 ---

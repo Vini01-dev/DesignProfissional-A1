@@ -10,7 +10,7 @@ Este espaço reúne documentos e links que comprovam minha trajetória como estu
 Participei de processos seletivos para vagas de estágio e trainee na área de TI, com o objetivo de iniciar minha carreira profissional.
 
 - ✅ **Relato Documentado:** Candidatei-me à vaga de Estágio em Desenvolvimento Web na empresa *TechSolutions* em novembro de 2025. Recebi o e-mail de confirmação da candidatura e estou aguardando retorno para as próximas etapas.
-- 📎 **Comprovante:** [Print ou e-mail de candidatura](./documentos/processo-seletivo.pdf)
+
 
 ---
 
@@ -18,8 +18,7 @@ Participei de processos seletivos para vagas de estágio e trainee na área de T
 
 Elaborei meu currículo com foco acadêmico e técnico, destacando minhas competências, formação e projetos na área de TI.
 
-- 🔗 **Currículo Lattes:** [lattes.cnpq.br/SEU_LINK_AQUI](https://lattes.cnpq.br/SEU_LINK_AQUI)
-- 📄 **Versão em PDF (LaTeX):** [curriculo-vitor-latex.pdf](./documentos/curriculo-vitor-latex.pdf)
+
 
 ---
 
@@ -27,8 +26,7 @@ Elaborei meu currículo com foco acadêmico e técnico, destacando minhas compet
 
 Meu GitHub reúne projetos desenvolvidos durante os estudos e iniciativas pessoais. Cada repositório conta com README estruturado e documentação clara.
 
-- 🔗 **Perfil no GitHub:** https://github.com/Vini01-dev
-- ⭐ **Projeto em Destaque:** https://github.com/Vini01-dev/Hard-Soft-Skill-TI
+
 
 ---
 
@@ -36,10 +34,6 @@ Meu GitHub reúne projetos desenvolvidos durante os estudos e iniciativas pessoa
 
 Organizei repositórios individuais para cada disciplina cursada no 1º semestre do curso de ADS, com README explicativo e estrutura básica de arquivos.
 
-- 📘 [Lógica de Programação](https://github.com/seu-usuario/logica-programacao)
-- 📗 [Fundamentos de Redes](https://github.com/seu-usuario/fundamentos-redes)
-- 📙 [Banco de Dados I](https://github.com/seu-usuario/banco-dados-1)
-- 📕 [Desenvolvimento Web I](https://github.com/seu-usuario/desenvolvimento-web-1)
 
 ---
 
@@ -47,8 +41,7 @@ Organizei repositórios individuais para cada disciplina cursada no 1º semestre
 
 Participei de eventos acadêmicos e profissionais para ampliar meus conhecimentos e networking na área de TI.
 
-- 📌 **Evento:** Palestra "Inteligencia Artificial e o Ensino Superior" — Simpósio Internacinal de Educação do Ensino Superior  (Agosto/2025)
-- 📎 **Certificado Digital:** Certificado Siees.pdf
+
 
 ---
 

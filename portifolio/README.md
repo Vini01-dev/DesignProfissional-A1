@@ -27,8 +27,7 @@ Reunir e apresentar um projeto prático de front-end que simula uma loja online 
 - **JavaScript**: funcionalidades interativas como carrossel de produtos e simulação de carrinho de compras
 
 O projeto inclui páginas de catálogo, detalhes do produto e uma interface amigável para navegação em dispositivos móveis.
-
-Link para o prejeto > 
+ 
 
 ---
 

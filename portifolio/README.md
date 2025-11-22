@@ -43,6 +43,4 @@ Sou Vinicius MIranda Santos, estudante de **Análise e Desenvolvimento de Sistem
 
 ---
 
-> Obrigado por visitar meu repositório! Este projeto é parte do meu portfólio acadêmico e está em constante evolução.
-
 > Este portfólio está em constante atualização conforme avanço na minha formação e carreira. Agradeço pela visita!

@@ -46,7 +46,7 @@ Este projeto foi modelado com base em:
 Sou Vinicius Miranda Santos, estudante de **Análise e Desenvolvimento de Sistemas**, com interesse em soluções tecnológicas voltadas para sustentabilidade, dados urbanos e sistemas inteligentes. Este projeto representa meu compromisso com a aplicação prática dos conceitos aprendidos em sala de aula.
 
 📧 Email : mirandavini228@gmail.com  
-🔗 [Meu GitHub](https://github.com/seu-usuario)  
+🔗 Meu GitHub : https://github.com/Vini01-dev
 
 
 ---

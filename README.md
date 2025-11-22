@@ -1,7 +1,7 @@
 # DesignProfissional-A1
 
 Bem-vindo ao meu repositório de evidências acadêmicas e profissionais!  
-Este espaço reúne documentos e links que comprovam minha trajetória como estudante de **Análise e Desenvolvimento de Sistemas**, com foco na área de **Tecnologia da Informação**.
+Este espaço reúne documentos e links que comprovam minha trajetória como estudante de **Análise e Desenvolvimento de Sistemas** cursando o primerio semstre, com foco na área de **Tecnologia da Informação**.
 
 ---
 

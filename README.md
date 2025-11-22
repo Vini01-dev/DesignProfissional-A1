@@ -28,7 +28,7 @@ Elaborei meu currículo com foco acadêmico e técnico, destacando minhas compet
 Meu GitHub reúne projetos desenvolvidos durante os estudos e iniciativas pessoais. Cada repositório conta com README estruturado e documentação clara.
 
 - 🔗 **Perfil no GitHub:** https://github.com/Vini01-dev
-- ⭐ **Projeto em Destaque:** [Hype Streets — Loja de Tênis Virtual](https://github.com/seu-usuario/hype-streets)
+- ⭐ **Projeto em Destaque:** https://github.com/Vini01-dev/Hard-Soft-Skill-TI
 
 ---
 

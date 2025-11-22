@@ -9,8 +9,6 @@ Este espaço reúne documentos e links que comprovam minha trajetória como estu
 
 Participei de processos seletivos para vagas de estágio e trainee na área de TI, com o objetivo de iniciar minha carreira profissional.
 
-- ✅ **Relato Documentado:** Candidatei-me à vaga de Estágio em Desenvolvimento Web na empresa *TechSolutions* em novembro de 2025. Recebi o e-mail de confirmação da candidatura e estou aguardando retorno para as próximas etapas.
-
 
 ---
 

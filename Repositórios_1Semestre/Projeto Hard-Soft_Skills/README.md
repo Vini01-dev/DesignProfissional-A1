@@ -34,7 +34,7 @@ Apresentar de forma clara e objetiva a diferença entre soft skills e hard skill
 
 Sou Vinicius Miranda Santos, estudante de **Análise e Desenvolvimento de Sistemas**, com interesse em desenvolvimento web, habilidades interpessoais e projetos que conectam tecnologia e comportamento humano. Este projeto representa meu compromisso com a formação integral como profissional de TI.
 
-📧 Emial : miarndavini228@gmail.com
+📧 Emial : mirandavini228@gmail.com
 🔗 Meu GitHub : https://github.com/Vini01-dev 
 
 ---

@@ -37,8 +37,8 @@ Link para o prejeto >
 Sou Vinicius MIranda Santos, estudante de **Análise e Desenvolvimento de Sistemas**, apaixonado por tecnologia, design e desenvolvimento web. Estou em busca da minha primeira oportunidade profissional na área de TI, com foco em front-end e projetos que unam criatividade e funcionalidade.
 
 📍 Brasília, DF  
-📧 mirandavini228@gmail.com  
-🔗 [Meu GitHub]((https://github.com/Vini01-dev))  
+📧  Email : mirandavini228@gmail.com  
+🔗 Meu GitHub : https://github.com/Vini01-dev
 
 
 ---

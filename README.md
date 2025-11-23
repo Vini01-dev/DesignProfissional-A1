@@ -16,6 +16,7 @@ Participei de processos seletivos para vagas de estágio e trainee na área de T
 
 Elaborei meu currículo com foco acadêmico e técnico, destacando minhas competências, formação e projetos na área de TI.
 
+Link Currículo Lattes : http://lattes.cnpq.br/4370498041422860
 
 
 ---
